@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/button_name_1"
+        android:drawableRight="@drawable/icon_buscar"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/button_name_2"
+        android:drawableRight="@drawable/icon_pda"
+        android:src="@drawable/ic_launcher"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+    />
+
+    <Button
+        android:id="@+id/button_name_3"
+        android:drawableRight="@drawable/icon_ruta"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+         />
+
+    <Button
+        android:id="@+id/button_name_4"
+        android:drawableRight="@drawable/icon_mapa"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+    />
+
+    <Button
+        android:id="@+id/button_name_5"
+        android:drawableRight="@drawable/icon_misesion"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+    />
+
+    <Button
+        android:id="@+id/button_name_6"
+        android:drawableRight="@drawable/icon_ayuda"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_weight="1"
+    />
+
+</LinearLayout>

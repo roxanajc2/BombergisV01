@@ -1,0 +1,99 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!--android:name = "com.proyectos.roxana.bombergisv01.view.fragment.GPS"-->
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.GPS"
+            android:id = "@+id/gps_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            tools:layout="@layout/gps_fragment"
+            android:background="@android:color/transparent"
+        />
+
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.BottomMenu"
+            android:id = "@+id/bottom_menu_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            tools:layout="@layout/bottom_menu_fragment"
+
+        />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:choiceMode="singleChoice"
+
+        android:dividerHeight="0dp"
+        android:background="#F0F0FF">
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.menu.Menu1"
+            android:id = "@+id/menu1_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/menu1_fragment"
+        />
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.menu.Menu2"
+            android:id = "@+id/menu2_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/menu2_fragment"
+        />
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.menu.Menu3"
+            android:id = "@+id/menu3_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/menu3_fragment"
+        />
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.menu.Menu4"
+            android:id = "@+id/menu4_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/menu4_fragment"
+        />
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.menu.Menu5"
+            android:id = "@+id/menu5_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/menu5_fragment"
+        />
+
+        <fragment
+            android:name = "com.proyectos.roxana.bombergisv01.view.fragment.menu.Menu6"
+            android:id = "@+id/menu6_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/menu6_fragment"
+        />
+
+    </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>

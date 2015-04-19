@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/menu2_fragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0FF"
+        android:divider="@android:color/transparent"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Puntos de Interes"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            >
+            <CheckBox
+                android:id="@+id/PA1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Centro de Salud" />
+            <CheckBox
+                android:id="@+id/PA2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Centros Educativos" />
+            <CheckBox
+                android:id="@+id/PA3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hidrantes" />
+            <CheckBox
+                android:id="@+id/PA4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parques" />
+            <CheckBox
+                android:id="@+id/PA5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parques de Bomberos" />
+            <CheckBox
+                android:id="@+id/PA6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grifos" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
