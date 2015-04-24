@@ -65,6 +65,8 @@ public class BottomMenu extends Fragment {
 
         for(int i = 0; i < 6; ++i){
 
+
+
             final int current_position = i;
 
             lsButtons[i].setOnClickListener(new View.OnClickListener() {
