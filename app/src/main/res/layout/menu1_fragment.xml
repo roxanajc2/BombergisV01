@@ -3,16 +3,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/menu1_fragment"
     >
 
-    <LinearLayout
-        android:id="@+id/menu1_fragment"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="@android:color/transparent"
-        android:visibility="visible"
-        >
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -102,8 +95,5 @@
             android:text="Buscar"
             android:visibility="visible"
             />
-
-    </LinearLayout>
-
 
 </LinearLayout>

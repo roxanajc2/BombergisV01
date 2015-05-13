@@ -1,4 +1,4 @@
-package com.proyectos.roxana.bombergisv01;
+package com.proyectos.roxana.bombergisv02;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

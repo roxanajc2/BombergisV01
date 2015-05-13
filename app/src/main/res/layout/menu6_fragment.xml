@@ -1,44 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/menu6_fragment" >
 
-    <LinearLayout
-        android:id="@+id/menu6_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.70"
-        android:background="#F0F0FF"
-        android:divider="@android:color/transparent"
-        android:orientation="vertical"
-        android:visibility="visible"
+    <TextView android:id="@+id/LblPosicion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="Posición Actual:" />
 
-        >
-        <LinearLayout
-            android:id="@+id/DatosPerfil"
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+    <TextView android:id="@+id/LblPosLatitud"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="#aaaaaa"
+        android:textColor="#000000" />
 
-            >
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Ayuda"
-                />
+    <TextView android:id="@+id/LblPosLongitud"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="#aaaaaa"
+        android:textColor="#000000" />
 
-            <ExpandableListView
-                android:id="@+id/expandableListView1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-            </ExpandableListView>
-        </LinearLayout>
+    <TextView android:id="@+id/LblPosPrecision"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="#aaaaaa"
+        android:textColor="#000000" />
 
+    <Button android:id="@+id/BtnActualizar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar" />
 
+    <Button android:id="@+id/BtnDesactivar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Desactivar" />
 
-    </LinearLayout>
+    <TextView android:id="@+id/LblEst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="Estado proveedor:" />
+
+    <TextView android:id="@+id/LblEstado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:background="#aaaaaa"
+        android:textColor="#000000" />
 
 </LinearLayout>
+
+
+    <!--?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/menu6_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.70"
+            android:background="#F0F0FF"
+            android:divider="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="visible"
+
+            >
+            <LinearLayout
+                android:id="@+id/DatosPerfil"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ayuda"
+                    />
+
+                <ExpandableListView
+                    android:id="@+id/expandableListView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </ExpandableListView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout-->

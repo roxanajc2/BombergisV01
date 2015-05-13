@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.proyectos.roxana.bombergisv01"
+        applicationId "com.proyectos.roxana.bombergisv02"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1

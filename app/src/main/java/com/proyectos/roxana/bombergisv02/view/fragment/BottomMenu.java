@@ -1,5 +1,7 @@
-package com.proyectos.roxana.bombergisv01.view.fragment;
+package com.proyectos.roxana.bombergisv02.view.fragment;
 
+import java.lang.Class;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -8,8 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.proyectos.roxana.bombergisv01.MainActivity;
-import com.proyectos.roxana.bombergisv01.R;
+import com.proyectos.roxana.bombergisv02.MainActivity;
+
+import com.proyectos.roxana.bombergisv02.R;
 
 public class BottomMenu extends Fragment {
 
@@ -61,12 +64,10 @@ public class BottomMenu extends Fragment {
 
     private void addEvents(){
 
+
         final MainActivity activity = (MainActivity) this.getActivity();
 
         for(int i = 0; i < 6; ++i){
-
-
-
             final int current_position = i;
 
             lsButtons[i].setOnClickListener(new View.OnClickListener() {
